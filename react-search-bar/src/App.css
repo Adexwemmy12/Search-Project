@@ -1,0 +1,18 @@
+.App {
+ /* background-color: rgb(49, 149, 63); */
+ background:linear-gradient((30, 234, 222, 0.71),transparent);
+ background-color: rgba(91, 255, 245, 0.4) /*this your primary color*/;
+ height: 100vh;
+ width: 100vw;
+}
+
+.search-bar-container {
+  padding-top: 20vh;
+  width: 60%;
+  margin: auto;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 200px;
+}
+
