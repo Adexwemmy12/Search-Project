@@ -13,7 +13,7 @@ function FavLink(props) {
     props.isMiddle ? 
         <img src={props.icon} alt='Icon' className='middleStyles' onClick={handleClick}/>
     :
-    <a href={props.link} className='commonStyles'>
+    <a href={props.link}>
         <img src={props.icon} alt='Icon'/>
     </a>
 }
